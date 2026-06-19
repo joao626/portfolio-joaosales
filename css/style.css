@@ -712,6 +712,11 @@ button {
     display: flex;
   }
 
+  .nav__logo svg {
+    height: 50px;
+    width: 50px;
+  }
+
   .hero__title {
     font-size: 3rem;
   }
@@ -793,6 +798,22 @@ button {
     width: 42px;
     height: 42px;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav__logo svg {
+    height: 40px;
+    width: 40px;
+  }
+
+  .nav__menu {
+    padding: 8px 0;
+  }
+
+  .nav__link {
+    padding: 10px 0;
+    font-size: 0.95rem;
   }
 }
 
