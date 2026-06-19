@@ -531,6 +531,15 @@ button {
   text-align: center;
 }
 
+.project-card__badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--primary-light);
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
 .project-card__links {
   display: flex;
   justify-content: space-between;
