@@ -613,6 +613,19 @@ button {
 .footer__logo {
   font-size: 1.25rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo svg {
+  height: 32px;
+  width: auto;
+  display: block;
+  color: var(--text-primary);
+}
+
+.light .footer__logo svg {
+  color: #7C3AED;
 }
 
 .footer__copy {
