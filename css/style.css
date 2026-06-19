@@ -252,6 +252,26 @@ button {
   color: var(--primary);
 }
 
+.font-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: all var(--transition);
+  border: 1px solid var(--border);
+}
+
+.font-btn:hover {
+  background: var(--bg-card);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
 .nav__toggle {
   display: none;
   width: 40px;
@@ -799,6 +819,17 @@ button {
     height: 42px;
     font-size: 1rem;
   }
+}
+
+/* ========== ACCESSIBILITY ========== */
+html.font-large,
+html.font-large body {
+  font-size: 120%;
+}
+
+html.font-xlarge,
+html.font-xlarge body {
+  font-size: 140%;
 }
 
 @media screen and (max-width: 360px) {

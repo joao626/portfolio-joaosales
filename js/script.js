@@ -70,6 +70,32 @@ sections.forEach(section => {
   observer.observe(section);
 });
 
+/* ========== FONT SIZE ACCESSIBILITY ========== */
+const fontInc = document.getElementById('font-inc');
+const fontDec = document.getElementById('font-dec');
+let fontSize = localStorage.getItem('fontSize') || 'normal';
+
+function applyFontSize(size) {
+  html.classList.remove('font-normal', 'font-large', 'font-xlarge');
+  if (size === 'large') html.classList.add('font-large');
+  else if (size === 'xlarge') html.classList.add('font-xlarge');
+  localStorage.setItem('fontSize', size);
+}
+
+fontInc.addEventListener('click', () => {
+  if (fontSize === 'normal') fontSize = 'large';
+  else if (fontSize === 'large') fontSize = 'xlarge';
+  applyFontSize(fontSize);
+});
+
+fontDec.addEventListener('click', () => {
+  if (fontSize === 'xlarge') fontSize = 'large';
+  else if (fontSize === 'large') fontSize = 'normal';
+  applyFontSize(fontSize);
+});
+
+applyFontSize(fontSize);
+
 /* ========== HEADER SCROLL EFFECT ========== */
 const header = document.getElementById('header');
 let lastScroll = 0;
