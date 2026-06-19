@@ -187,8 +187,8 @@ button {
 }
 
 .nav__logo svg {
-  height: 36px;
-  width: auto;
+  height: 70px;
+  width: 70px;
   display: block;
   color: var(--text-primary);
 }
@@ -618,8 +618,8 @@ button {
 }
 
 .footer__logo svg {
-  height: 32px;
-  width: auto;
+  height: 70px;
+  width: 70px;
   display: block;
   color: var(--text-primary);
 }
