@@ -186,6 +186,17 @@ button {
   color: var(--text-primary);
 }
 
+.nav__logo svg {
+  height: 36px;
+  width: auto;
+  display: block;
+  color: var(--text-primary);
+}
+
+.light .nav__logo svg {
+  color: #7C3AED;
+}
+
 .nav__menu {
   display: flex;
   gap: 40px;
