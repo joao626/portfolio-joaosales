@@ -1,6 +1,6 @@
 # Portfólio - João Sales
 
-![Preview](https://lh3.googleusercontent.com/aida/AP1WRLsXkWHXCK7s4NBcTn3NgAQla6lREUxvZU0sLmVT85JOo_37t2gTly1yP3vFRVzzyEItc3u2D_PBYIG9mo8QXMDyAd5Leul35rO7WfJGRdjt2KPwjoRQXybFVTc2MU3DWGmbOjJ1wQdVl6qV33uDZi506kMtEKItzmXAgnybzwOBM3TytcidC0e9iqnEvTvOCTeloeun7a25hnQppK28azyk9EwFc9PUfGe2PCo2OGbC3s5D9doigjTJIA)
+![Preview](assets/tela-main.jpg)
 
 Portfólio pessoal de **João Sales**, Desenvolvedor de Software. Projeto desenvolvido com HTML, CSS e JavaScript puros, seguindo boas práticas de semântica, responsividade e performance.
 
